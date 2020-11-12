@@ -1,3 +1,5 @@
+import items from './items';
+
 const ShoppingCart = () => {
     return (
         <div>
