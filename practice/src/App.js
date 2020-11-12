@@ -1,7 +1,10 @@
 import logo from './logo.svg';
+import {Add, Multiply} from './helpers';
 import './App.css';
 
+
 function App() {
+  console.log(Add(1,2));
   return (
     <div className="App">
       <header className="App-header">
