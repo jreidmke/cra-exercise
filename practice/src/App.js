@@ -10,8 +10,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <ShoppingCart items={items}/>
-      <ShoppingCart items={moreItems}/>
+      <ShoppingCart items={items} user="James"/>
+      <ShoppingCart items={moreItems} user="Maria"/>
     </div>
   );
 }
