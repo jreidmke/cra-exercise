@@ -13,4 +13,7 @@ const char = [
     }
 ]
 
+const Hi = () => console.log("Hi");
+
+export {Hi};
 export default char;
