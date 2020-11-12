@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import {Add, Multiply} from './helpers';
+import char from './swChar';
 import './App.css';
 
 
 function App() {
   console.log(Add(1,2));
+  console.log(Multiply(2, 2));
+  console.log(char[0]);
   return (
     <div className="App">
       <header className="App-header">
