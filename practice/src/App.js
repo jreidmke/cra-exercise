@@ -3,12 +3,16 @@
 // import char, {Hi} from './swChar';
 import ShoppingCart from './shoppingCart';
 import items from './items';
+import moreItems from './moreItems';
 import './App.css';
 
 
 function App() {
   return (
-    <ShoppingCart items={items}/>
+    <div>
+      <ShoppingCart items={items}/>
+      <ShoppingCart items={moreItems}/>
+    </div>
   );
 }
 
