@@ -1,6 +1,6 @@
 import items from './items';
 
-const ShoppingCart = () => {
+const ShoppingCart = ({items}) => {
     return (
         <div>
         <h1>Shopping Cart</h1>
